@@ -1,6 +1,6 @@
 # Hi there, I'm Habib Furqony Andrianus! 👋
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Economist+%26+Data+Scientist;NUS+Master's+Student;Research+%26+Analytics+Expert;Teaching+Assistant;Former+PMI+%26+Nutrifood+Analyst)
+![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Economist+%26+Data+Scientist;NUS+Master's+Student;Research+%26+Analytics+Expert;Teaching+Assistant;Experienced+FMCG+Professionals)
 
 ## 🚀 About Me
 
