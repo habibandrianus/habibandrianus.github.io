@@ -18,20 +18,9 @@ I'm a distinguished economist and data scientist currently pursuing my Master of
 ## 🛠️ Technical Skills & Tools
 
 **Programming & Analytics:**
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
 ![Stata](https://img.shields.io/badge/Stata-1F4E79?style=for-the-badge&logo=stata&logoColor=white)
-![SQL](https://img.shields.io/badge/SQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
-
-**Data Science & Machine Learning:**
-![Pandas](https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white)
-![NumPy](https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white)
-![Scikit Learn](https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-
-**Business Intelligence:**
-![Power BI](https://img.shields.io/badge/PowerBI-F2C811?style=for-the-badge&logo=power-bi&logoColor=black)
-![Tableau](https://img.shields.io/badge/Tableau-E97627?style=for-the-badge&logo=tableau&logoColor=white)
 
 ## 📊 GitHub Stats
 
@@ -85,7 +74,6 @@ I'm a distinguished economist and data scientist currently pursuing my Master of
 ### 🎓 **Academic Roles**
 - **Teaching Assistant** - MBA Digital Business Transformation (Prof. Jonathan Briggs)
 - **Student Researcher** - Institute of Policy Studies, Lee Kuan Yew School of Public Policy
-- **Research Assistant** - Central Bank of Indonesia Research Funding Program
 
 ## 🌍 Diplomatic & Leadership Experience
 
@@ -123,18 +111,13 @@ Experimental economics approach to analyze determinants of redenomination policy
 Advanced analytics system for optimizing retail channel strategies across 3,000+ retailers.
 
 **Features:** Real-time Data Integration, Predictive Modeling, Strategic Insights  
-**Tools:** Python, SQL, Power BI  
-**Impact:** Drove PMI to No.1 ranking in Central Java Zone
+**Tools:** Excel
+**Impact:** Increase PMI sales at Tuban Area to 1* digits on Q1 2024
 
 ## 🏅 Certifications & Skills
 
 ### 📜 **Professional Certifications**
 - **IELTS Academic Band 7.5**
-- **Intermediate Python Programming**
-- **Advanced R for Economists**
-- **Product Treasury Management**
-- **International Banking**
-- **Strategic Banking Management**
 
 ### 🎯 **Core Competencies**
 - **Economic Analysis & Forecasting**
