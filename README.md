@@ -22,18 +22,6 @@ I'm a distinguished economist and data scientist currently pursuing my Master of
 ![Stata](https://img.shields.io/badge/Stata-1F4E79?style=for-the-badge&logo=stata&logoColor=white)
 ![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
 
-## 📊 GitHub Stats
-
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=habibandrianus&show_icons=true&theme=tokyonight&hide_border=true&count_private=true)
-
-![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=habibandrianus&theme=tokyonight&hide_border=true)
-
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=habibandrianus&layout=compact&theme=tokyonight&hide_border=true)
-
-## 🏆 Achievements & Recognition
-
-![GitHub Trophies](https://github-profile-trophy.vercel.app/?username=habibandrianus&theme=tokyonight&no-frame=true&row=1&column=6)
-
 ### 🎖️ Notable Awards & Honors
 - 🥇 **World's Top Universities Scholarship** by Indonesian Endowment Fund (15% Acceptance Rate) - 2024
 - 🏆 **Most Inspiring Student** of Economics Department, IPB University - 2022
