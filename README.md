@@ -1,139 +1,661 @@
-# Hi there, I'm Habib Furqony Andrianus! 👋
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Habib Furqony Andrianus - Economist & Data Scientist</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&pause=1000&color=2F81F7&center=true&vCenter=true&width=600&lines=Economist+%26+Data+Scientist;NUS+Master's+Student;Research+%26+Analytics+Expert;Teaching+Assistant;Experienced+FMCG+Professionals)
+        body {
+            font-family: 'SF Pro Display', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: #333;
+            line-height: 1.6;
+            overflow-x: hidden;
+        }
 
-## 🚀 About Me
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
 
-I'm a distinguished economist and data scientist currently pursuing my Master of Economics at the National University of Singapore (NUS) on a full LPDP scholarship. With a top 1% Bachelor's degree from IPB University and extensive corporate experience at Philip Morris International and Nutrifood, I specialize in economic research, data analytics, and strategic business insights.
+        /* Animated background particles */
+        .particles {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+            z-index: -1;
+        }
 
-- 🎓 **Master of Economics** at National University of Singapore (Distinction Grade)
-- 🏆 **Top 1% Graduate** from IPB University (GPA: 3.95/4.00)
-- 📊 Former **Area Retail Analyst** at Philip Morris International
-- 🔬 **Ex-Student Researcher** at Institute of Policy Studies, Lee Kuan Yew School of Public Policy
-- 👨‍🏫 **Ex-Teaching Assistant** for MBA Digital Business Transformation course
-- 📈 Specialized in **Econometrics, Machine Learning, and Economic Analysis**
-- 🌏 **Personal Assistant Experience** at Indonesian Embassy in Kuala Lumpur & Institute of South Asian Studies
-- 📝 **Published Researcher** at Q3 Scopus journal publication
+        .particle {
+            position: absolute;
+            width: 4px;
+            height: 4px;
+            background: rgba(255, 255, 255, 0.3);
+            border-radius: 50%;
+            animation: float 20s infinite linear;
+        }
 
-## 🛠️ Technical Skills & Tools
+        @keyframes float {
+            0% { transform: translateY(100vh) rotate(0deg); opacity: 0; }
+            10% { opacity: 1; }
+            90% { opacity: 1; }
+            100% { transform: translateY(-100vh) rotate(360deg); opacity: 0; }
+        }
 
-**Programming & Analytics:**
-![R](https://img.shields.io/badge/R-276DC3?style=for-the-badge&logo=r&logoColor=white)
-![Stata](https://img.shields.io/badge/Stata-1F4E79?style=for-the-badge&logo=stata&logoColor=white)
-![Excel](https://img.shields.io/badge/Microsoft_Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)
+        /* Header section */
+        .header {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(20px);
+            border-radius: 25px;
+            padding: 60px 40px;
+            text-align: center;
+            margin-bottom: 40px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.1);
+            animation: fadeInUp 1s ease-out;
+        }
 
-### 🎖️ Notable Awards & Honors
-- 🥇 **World's Top Universities Scholarship** by Indonesian Endowment Fund (15% Acceptance Rate) - 2024
-- 🏆 **Most Inspiring Student** of Economics Department, IPB University - 2022
-- 🥈 **Silver Medal** in Social Science at National Science Olympiad (OSN SMP) - 2014
-- 🏅 **XL Future Leaders Batch 8 Award**
-- 📜 **Merit-Based Full Tuition Scholarship** by Ministry of Education, Republic of Indonesia (2019-2022)
+        .header h1 {
+            font-size: 3.5rem;
+            font-weight: 800;
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            margin-bottom: 20px;
+            animation: textGlow 2s ease-in-out infinite alternate;
+        }
 
-## 💼 Professional Experience
+        @keyframes textGlow {
+            from { filter: drop-shadow(0 0 10px rgba(255, 107, 107, 0.5)); }
+            to { filter: drop-shadow(0 0 20px rgba(78, 205, 196, 0.5)); }
+        }
 
-### 📈 **Area Retail Analyst** | Philip Morris International
-*August 2023 - April 2024*
-- Assembled market data from **10,000+ retailers** driving >5% growth in Sampoerna's volume and profit
-- Managed **3 key sales databases** with real-time survey integration
-- Achieved **10 million sticks** in sales, securing **No.1 Central Java Zone ranking** in Q1 2024
+        .typing-animation {
+            font-size: 1.4rem;
+            color: #fff;
+            margin-bottom: 30px;
+            min-height: 60px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
 
-### 🎯 **Area Marketing Junior Executive** | Nutrifood Indonesia  
-*October 2022 - April 2023*
-- Led marketing operations across **5 major cities** with team of 10+ members
-- Executed **100+ brand activation** events for 5 brands
-- Drove **10%+ area growth** through strategic multichannel marketing optimization
+        .wave {
+            font-size: 2.5rem;
+            animation: wave 2s infinite;
+            display: inline-block;
+        }
 
-### 💻 **Product Analyst** | Lifepal Technologies
-*June 2022 - September 2022*
-- Supervised **300+ agents** operations reporting to CPO & CMO
-- Resolved **100+ bug reports** within 24-hour SLA, improving user satisfaction
-- Boosted **customer retention by 75%** through algorithm optimization
+        @keyframes wave {
+            0%, 100% { transform: rotate(0deg); }
+            25% { transform: rotate(20deg); }
+            75% { transform: rotate(-20deg); }
+        }
 
-## 🔬 Research & Publications
+        /* Card styles */
+        .card {
+            background: rgba(255, 255, 255, 0.95);
+            backdrop-filter: blur(20px);
+            border-radius: 20px;
+            padding: 40px;
+            margin-bottom: 30px;
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+            transition: all 0.3s ease;
+            animation: fadeInUp 1s ease-out;
+        }
 
-### 📚 **Published & Upcoming Research**
-- **"Socio-Economic Analysis and Population Displacement Due to Natural Disasters in West Sumatra"** 
-  - *Q3 Scopus-indexed journal (2025)*
-- **"Asymmetric Information on the Redenomination Policy: Evidence from Indonesia"**
-  - *Presented at ISEI XXIII National Seminar (2023)*
-- **"Analisis Pengaruh Kebijakan Bantuan Langsung Tunai (BLT) terhadap Kemiskinan di Indonesia"**
-  - *Funded by Central Bank of Indonesia*
+        .card:hover {
+            transform: translateY(-10px);
+            box-shadow: 0 30px 60px rgba(0, 0, 0, 0.15);
+        }
 
-### 🎓 **Academic Roles**
-- **Teaching Assistant** - MBA Digital Business Transformation (Prof. Jonathan Briggs)
-- **Student Researcher** - Institute of Policy Studies, Lee Kuan Yew School of Public Policy
+        .card h2 {
+            font-size: 2.2rem;
+            color: #2c3e50;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 15px;
+        }
 
-## 🌍 Diplomatic & Leadership Experience
+        .card h2::after {
+            content: '';
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            width: 50px;
+            height: 4px;
+            background: linear-gradient(135deg, #ff6b6b, #4ecdc4);
+            border-radius: 2px;
+        }
 
-### 🏛️ **Indonesian Embassy, Kuala Lumpur**
-*May - June 2023*
-- **Personal Assistant** to Education & Cultural Attaché
-- **Co-authored** "Menulis Artikel Jurnal Ilmiah dan Media Massa"
+        .card h3 {
+            color: #34495e;
+            font-size: 1.4rem;
+            margin-bottom: 15px;
+            position: relative;
+            padding-left: 20px;
+        }
 
-### 🤝 **LPDP Singapore Leaders' Retreat**
-*June 16, 2025*
-- **Represented LPDP Singapore** at 8th Singapore-Indonesia Leaders' Retreat
-- **Coordinated** high-level diplomatic discussions with President Prabowo Subianto
+        .card h3::before {
+            content: '🚀';
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
 
-### 🏢 **Current Leadership Roles**
-- **Vice-Chairman** of Indonesian LPDP Scholarship Awardees in Singapore (2025)
-- **Student Ambassador** of Faculty of Arts & Social Sciences, NUS (2025)
+        /* Skills grid */
+        .skills-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
 
-## 🎯 Featured Projects
+        .skill-item {
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 20px;
+            border-radius: 15px;
+            text-align: center;
+            transition: all 0.3s ease;
+            cursor: pointer;
+        }
 
-### 📊 Economic Impact Analysis - Natural Disasters
-Comprehensive econometric analysis of socio-economic impacts of natural disasters in West Sumatra using advanced statistical modeling.
+        .skill-item:hover {
+            transform: scale(1.05);
+            background: linear-gradient(135deg, #764ba2, #667eea);
+        }
 
-**Methods:** Panel Data Analysis, Difference-in-Differences, Spatial Econometrics  
-**Tools:** R, Stata, Python  
-**Status:** Published in Q3 Scopus Journal (2025)
+        /* Awards grid */
+        .awards-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
 
-### 💰 Redenomination Policy Analysis
-Experimental economics approach to analyze determinants of redenomination policy success in Indonesia.
+        .award-item {
+            background: linear-gradient(135deg, #ffeaa7, #fab1a0);
+            padding: 25px;
+            border-radius: 15px;
+            border-left: 5px solid #e17055;
+            transition: all 0.3s ease;
+        }
 
-**Methods:** Online Experiments, Behavioral Economics, Statistical Analysis  
-**Tools:** R, Stata, Survey Design  
-**Funding:** Central Bank of Indonesia Research Program
+        .award-item:hover {
+            transform: translateX(10px);
+            box-shadow: -5px 5px 20px rgba(0, 0, 0, 0.1);
+        }
 
-### 🏪 Retail Analytics Dashboard
-Advanced analytics system for optimizing retail channel strategies across 3,000+ retailers.
+        /* Experience timeline */
+        .timeline {
+            position: relative;
+            margin-top: 30px;
+        }
 
-**Features:** Real-time Data Integration, Predictive Modeling, Strategic Insights  
-**Tools:** Excel
-**Impact:** Increase PMI sales at Tuban Area to 1* digits on Q1 2024
+        .timeline::before {
+            content: '';
+            position: absolute;
+            left: 30px;
+            top: 0;
+            bottom: 0;
+            width: 4px;
+            background: linear-gradient(to bottom, #667eea, #764ba2);
+            border-radius: 2px;
+        }
 
-## 🏅 Certifications & Skills
+        .timeline-item {
+            position: relative;
+            margin: 30px 0;
+            margin-left: 70px;
+            background: rgba(255, 255, 255, 0.9);
+            padding: 25px;
+            border-radius: 15px;
+            border: 1px solid rgba(102, 126, 234, 0.2);
+            transition: all 0.3s ease;
+        }
 
-### 📜 **Professional Certifications**
-- **IELTS Academic Band 7.5**
+        .timeline-item:hover {
+            background: rgba(255, 255, 255, 1);
+            transform: translateX(10px);
+        }
 
-### 🎯 **Core Competencies**
-- **Economic Analysis & Forecasting**
-- **Econometric Modeling**  
-- **Machine Learning for Economics**
-- **Behavioral Economics**
-- **Market Research & Analytics**
-- **Strategic Business Intelligence**
-- **Cross-cultural Communication** (English/Bahasa Indonesia)
+        .timeline-item::before {
+            content: '';
+            position: absolute;
+            left: -55px;
+            top: 25px;
+            width: 20px;
+            height: 20px;
+            background: #667eea;
+            border: 4px solid white;
+            border-radius: 50%;
+            box-shadow: 0 0 10px rgba(102, 126, 234, 0.5);
+        }
 
-## 🤝 Let's Connect!
+        /* Contact section */
+        .contact-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-top: 30px;
+            flex-wrap: wrap;
+        }
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/habibandrianus/)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrianus_habib@u.nus.edu)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/andrianushabib)
+        .contact-link {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: linear-gradient(135deg, #667eea, #764ba2);
+            color: white;
+            padding: 15px 25px;
+            border-radius: 50px;
+            text-decoration: none;
+            transition: all 0.3s ease;
+            font-weight: 600;
+        }
 
-## 🌟 Current Focus
+        .contact-link:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 10px 25px rgba(102, 126, 234, 0.4);
+            background: linear-gradient(135deg, #764ba2, #667eea);
+        }
 
-- 🔬 **Research**: Identity and belonging among Indonesians in Singapore (IPS-LKYSPP)
-- 📚 **Teaching**: Digital Business Transformation for MBA students
-- 🎓 **Studies**: Master of Economics with Distinction at NUS
-- 🌍 **Leadership**: Vice-Chairman of LPDP Singapore community & Program Director at Garuda Empowerment Network
-- 📊 **Projects**: Singapore-India Immersion Program
+        /* Projects showcase */
+        .projects-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+            gap: 25px;
+            margin-top: 30px;
+        }
 
----
+        .project-card {
+            background: linear-gradient(135deg, #a8e6cf, #88d8c0);
+            padding: 30px;
+            border-radius: 20px;
+            position: relative;
+            overflow: hidden;
+            transition: all 0.3s ease;
+        }
 
-![Profile Views](https://komarev.com/ghpvc/?username=habibandrianus&color=blue&style=flat-square)
+        .project-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15);
+        }
 
-**"Economics is not just about numbers—it's about understanding human behavior and creating positive impact."**
+        .project-card::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: linear-gradient(45deg, transparent, rgba(255, 255, 255, 0.1), transparent);
+            transform: rotate(45deg);
+            transition: all 0.6s ease;
+        }
 
-*Thanks for visiting my profile! Let's collaborate on impactful research and analytics projects! 🚀*
+        .project-card:hover::before {
+            left: 100%;
+        }
+
+        /* Animations */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .fade-in {
+            animation: fadeInUp 1s ease-out;
+        }
+
+        /* Quote section */
+        .quote {
+            background: linear-gradient(135deg, #2c3e50, #3498db);
+            color: white;
+            padding: 50px;
+            border-radius: 25px;
+            text-align: center;
+            margin: 40px 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .quote::before {
+            content: '"';
+            font-size: 8rem;
+            position: absolute;
+            top: -20px;
+            left: 30px;
+            opacity: 0.2;
+            font-family: serif;
+        }
+
+        .quote p {
+            font-size: 1.5rem;
+            font-style: italic;
+            margin-bottom: 20px;
+            position: relative;
+            z-index: 1;
+        }
+
+        /* Responsive design */
+        @media (max-width: 768px) {
+            .header h1 {
+                font-size: 2.5rem;
+            }
+            
+            .header {
+                padding: 40px 20px;
+            }
+            
+            .card {
+                padding: 25px;
+            }
+            
+            .skills-grid,
+            .awards-grid,
+            .projects-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .contact-links {
+                flex-direction: column;
+                align-items: center;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Animated background particles -->
+    <div class="particles" id="particles"></div>
+
+    <div class="container">
+        <!-- Header Section -->
+        <div class="header">
+            <h1>Hi there, I'm Habib Furqony Andrianus! <span class="wave">👋</span></h1>
+            <div class="typing-animation" id="typing"></div>
+        </div>
+
+        <!-- About Section -->
+        <div class="card">
+            <h2>🚀 About Me</h2>
+            <p style="font-size: 1.1rem; color: #555;">I'm a distinguished economist and data scientist currently pursuing my Master of Economics at the National University of Singapore (NUS) on a full LPDP scholarship. With a top 1% Bachelor's degree from IPB University and extensive corporate experience at Philip Morris International and Nutrifood, I specialize in economic research, data analytics, and strategic business insights.</p>
+            
+            <div class="skills-grid">
+                <div class="skill-item">
+                    <h4>🎓 Master of Economics</h4>
+                    <p>National University of Singapore (Distinction Grade)</p>
+                </div>
+                <div class="skill-item">
+                    <h4>🏆 Top 1% Graduate</h4>
+                    <p>IPB University (GPA: 3.95/4.00)</p>
+                </div>
+                <div class="skill-item">
+                    <h4>📊 Area Retail Analyst</h4>
+                    <p>Philip Morris International</p>
+                </div>
+                <div class="skill-item">
+                    <h4>🔬 Student Researcher</h4>
+                    <p>Institute of Policy Studies, LKYSPP</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Technical Skills -->
+        <div class="card">
+            <h2>🛠️ Technical Skills & Tools</h2>
+            <div class="skills-grid">
+                <div class="skill-item" style="background: linear-gradient(135deg, #276DC3, #1F4E79);">
+                    <h4>R Programming</h4>
+                    <p>Advanced Statistical Analysis</p>
+                </div>
+                <div class="skill-item" style="background: linear-gradient(135deg, #1F4E79, #276DC3);">
+                    <h4>Stata</h4>
+                    <p>Econometric Modeling</p>
+                </div>
+                <div class="skill-item" style="background: linear-gradient(135deg, #217346, #2F5233);">
+                    <h4>Microsoft Excel</h4>
+                    <p>Advanced Analytics & Visualization</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Awards -->
+        <div class="card">
+            <h2>🎖️ Notable Awards & Honors</h2>
+            <div class="awards-grid">
+                <div class="award-item">
+                    <h4>🥇 World's Top Universities Scholarship</h4>
+                    <p>Indonesian Endowment Fund (15% Acceptance Rate) - 2024</p>
+                </div>
+                <div class="award-item">
+                    <h4>🏆 Most Inspiring Student</h4>
+                    <p>Economics Department, IPB University - 2022</p>
+                </div>
+                <div class="award-item">
+                    <h4>🥈 Silver Medal</h4>
+                    <p>Social Science at National Science Olympiad (OSN SMP) - 2014</p>
+                </div>
+                <div class="award-item">
+                    <h4>📜 Merit-Based Full Tuition Scholarship</h4>
+                    <p>Ministry of Education, Republic of Indonesia (2019-2022)</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional Experience -->
+        <div class="card">
+            <h2>💼 Professional Experience</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <h3>📈 Area Retail Analyst | Philip Morris International</h3>
+                    <p><em>August 2023 - April 2024</em></p>
+                    <ul>
+                        <li>Assembled market data from <strong>10,000+ retailers</strong> driving >5% growth in Sampoerna's volume and profit</li>
+                        <li>Managed <strong>3 key sales databases</strong> with real-time survey integration</li>
+                        <li>Achieved <strong>10 million sticks</strong> in sales, securing <strong>No.1 Central Java Zone ranking</strong> in Q1 2024</li>
+                    </ul>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>🎯 Area Marketing Junior Executive | Nutrifood Indonesia</h3>
+                    <p><em>October 2022 - April 2023</em></p>
+                    <ul>
+                        <li>Led marketing operations across <strong>5 major cities</strong> with team of 10+ members</li>
+                        <li>Executed <strong>100+ brand activation</strong> events for 5 brands</li>
+                        <li>Drove <strong>10%+ area growth</strong> through strategic multichannel marketing optimization</li>
+                    </ul>
+                </div>
+                
+                <div class="timeline-item">
+                    <h3>💻 Product Analyst | Lifepal Technologies</h3>
+                    <p><em>June 2022 - September 2022</em></p>
+                    <ul>
+                        <li>Supervised <strong>300+ agents</strong> operations reporting to CPO & CMO</li>
+                        <li>Resolved <strong>100+ bug reports</strong> within 24-hour SLA, improving user satisfaction</li>
+                        <li>Boosted <strong>customer retention by 75%</strong> through algorithm optimization</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- Featured Projects -->
+        <div class="card">
+            <h2>🎯 Featured Projects</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>📊 Economic Impact Analysis - Natural Disasters</h3>
+                    <p>Comprehensive econometric analysis of socio-economic impacts of natural disasters in West Sumatra using advanced statistical modeling.</p>
+                    <p><strong>Methods:</strong> Panel Data Analysis, Difference-in-Differences, Spatial Econometrics</p>
+                    <p><strong>Status:</strong> Published in Q3 Scopus Journal (2025)</p>
+                </div>
+                
+                <div class="project-card">
+                    <h3>💰 Redenomination Policy Analysis</h3>
+                    <p>Experimental economics approach to analyze determinants of redenomination policy success in Indonesia.</p>
+                    <p><strong>Methods:</strong> Online Experiments, Behavioral Economics, Statistical Analysis</p>
+                    <p><strong>Funding:</strong> Central Bank of Indonesia Research Program</p>
+                </div>
+                
+                <div class="project-card">
+                    <h3>🏪 Retail Analytics Dashboard</h3>
+                    <p>Advanced analytics system for optimizing retail channel strategies across 3,000+ retailers.</p>
+                    <p><strong>Features:</strong> Real-time Data Integration, Predictive Modeling, Strategic Insights</p>
+                    <p><strong>Impact:</strong> Increased PMI sales at Tuban Area to single digits on Q1 2024</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Current Focus -->
+        <div class="card">
+            <h2>🌟 Current Focus</h2>
+            <div class="skills-grid">
+                <div class="skill-item" style="background: linear-gradient(135deg, #e74c3c, #c0392b);">
+                    <h4>🔬 Research</h4>
+                    <p>Identity and belonging among Indonesians in Singapore (IPS-LKYSPP)</p>
+                </div>
+                <div class="skill-item" style="background: linear-gradient(135deg, #f39c12, #e67e22);">
+                    <h4>📚 Teaching</h4>
+                    <p>Digital Business Transformation for MBA students</p>
+                </div>
+                <div class="skill-item" style="background: linear-gradient(135deg, #9b59b6, #8e44ad);">
+                    <h4>🎓 Studies</h4>
+                    <p>Master of Economics with Distinction at NUS</p>
+                </div>
+                <div class="skill-item" style="background: linear-gradient(135deg, #27ae60, #229954);">
+                    <h4>🌍 Leadership</h4>
+                    <p>Vice-Chairman of LPDP Singapore community</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Inspirational Quote -->
+        <div class="quote">
+            <p>"Economics is not just about numbers—it's about understanding human behavior and creating positive impact."</p>
+            <p style="font-size: 1rem; opacity: 0.8;">- Habib Furqony Andrianus</p>
+        </div>
+
+        <!-- Contact Section -->
+        <div class="card">
+            <h2>🤝 Let's Connect!</h2>
+            <div class="contact-links">
+                <a href="https://www.linkedin.com/in/habibandrianus/" class="contact-link">
+                    <span>💼</span> LinkedIn
+                </a>
+                <a href="mailto:andrianus_habib@u.nus.edu" class="contact-link">
+                    <span>📧</span> Email
+                </a>
+                <a href="https://instagram.com/andrianushabib" class="contact-link">
+                    <span>📸</span> Instagram
+                </a>
+            </div>
+            <p style="text-align: center; margin-top: 30px; font-style: italic; color: #666;">
+                Thanks for visiting my profile! Let's collaborate on impactful research and analytics projects! 🚀
+            </p>
+        </div>
+    </div>
+
+    <script>
+        // Create animated particles
+        function createParticles() {
+            const particlesContainer = document.getElementById('particles');
+            const particleCount = 50;
+            
+            for (let i = 0; i < particleCount; i++) {
+                const particle = document.createElement('div');
+                particle.className = 'particle';
+                particle.style.left = Math.random() * 100 + '%';
+                particle.style.animationDelay = Math.random() * 20 + 's';
+                particle.style.animationDuration = (Math.random() * 10 + 15) + 's';
+                particlesContainer.appendChild(particle);
+            }
+        }
+
+        // Typing animation
+        function typeWriter() {
+            const texts = [
+                'Economist & Data Scientist',
+                'NUS Master\'s Student',
+                'Research & Analytics Expert',
+                'Teaching Assistant',
+                'Experienced FMCG Professional'
+            ];
+            
+            const typingElement = document.getElementById('typing');
+            let textIndex = 0;
+            let charIndex = 0;
+            let isDeleting = false;
+            
+            function type() {
+                const currentText = texts[textIndex];
+                
+                if (isDeleting) {
+                    typingElement.textContent = currentText.substring(0, charIndex - 1);
+                    charIndex--;
+                } else {
+                    typingElement.textContent = currentText.substring(0, charIndex + 1);
+                    charIndex++;
+                }
+                
+                let typeSpeed = isDeleting ? 50 : 100;
+                
+                if (!isDeleting && charIndex === currentText.length) {
+                    typeSpeed = 2000;
+                    isDeleting = true;
+                } else if (isDeleting && charIndex === 0) {
+                    isDeleting = false;
+                    textIndex = (textIndex + 1) % texts.length;
+                    typeSpeed = 500;
+                }
+                
+                setTimeout(type, typeSpeed);
+            }
+            
+            type();
+        }
+
+        // Intersection Observer for animations
+        function observeElements() {
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animationPlayState = 'running';
+                    }
+                });
+            });
+
+            document.querySelectorAll('.card').forEach(card => {
+                observer.observe(card);
+            });
+        }
+
+        // Initialize everything
+        document.addEventListener('DOMContentLoaded', function() {
+            createParticles();
+            typeWriter();
+            observeElements();
+        });
+
+        // Add smooth scrolling
+        document.documentElement.style.scrollBehavior = 'smooth';
+    </script>
+</body>
+</html>
