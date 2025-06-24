@@ -9,11 +9,11 @@ I'm a distinguished economist and data scientist currently pursuing my Master of
 - 🎓 **Master of Economics** at National University of Singapore (Distinction Grade)
 - 🏆 **Top 1% Graduate** from IPB University (GPA: 3.95/4.00)
 - 📊 Former **Area Retail Analyst** at Philip Morris International
-- 🔬 **Student Researcher** at Institute of Policy Studies, Lee Kuan Yew School of Public Policy
-- 👨‍🏫 **Teaching Assistant** for MBA Digital Business Transformation course
+- 🔬 **Ex-Student Researcher** at Institute of Policy Studies, Lee Kuan Yew School of Public Policy
+- 👨‍🏫 **Ex-Teaching Assistant** for MBA Digital Business Transformation course
 - 📈 Specialized in **Econometrics, Machine Learning, and Economic Analysis**
-- 🌏 **Diplomatic Experience** at Indonesian Embassy in Kuala Lumpur
-- 📝 **Published Researcher** with upcoming Q3 Scopus journal publication
+- 🌏 **Personal Assistant Experience** at Indonesian Embassy in Kuala Lumpur & Institute of South Asian Studies
+- 📝 **Published Researcher** at Q3 Scopus journal publication
 
 ## 🛠️ Technical Skills & Tools
 
@@ -149,15 +149,15 @@ Advanced analytics system for optimizing retail channel strategies across 3,000+
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/habibandrianus/)
 [![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:andrianus_habib@u.nus.edu)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/habibandrianus)
+[![Instagram](https://img.shields.io/badge/Instagram-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://instagram.com/andrianushabib)
 
 ## 🌟 Current Focus
 
 - 🔬 **Research**: Identity and belonging among Indonesians in Singapore (IPS-LKYSPP)
 - 📚 **Teaching**: Digital Business Transformation for MBA students
 - 🎓 **Studies**: Master of Economics with Distinction at NUS
-- 🌍 **Leadership**: Vice-Chairman of LPDP Singapore community
-- 📊 **Projects**: Advanced econometric modeling and policy analysis
+- 🌍 **Leadership**: Vice-Chairman of LPDP Singapore community & Program Director at Garuda Empowerment Network
+- 📊 **Projects**: Singapore-India Immersion Program
 
 ---
 
